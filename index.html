@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyCoin (MYC) - Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">🪙 MYC</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#wallet">Wallet</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div>
+    <p class="tag">MYCOIN • DEMO / TESTNET</p>
+    <h1>Welcome to <span>MyCoin</span></h1>
+    <p>A simple demo website for the MyCoin (MYC) token project.</p>
+    <a class="btn" href="#wallet">Open Demo Wallet</a>
+  </div>
+  <div class="coin">MYC</div>
+</section>
+
+<section class="stats">
+  <div><b>1,000,000</b><small>Total Supply</small></div>
+  <div><b>MYC</b><small>Symbol</small></div>
+  <div><b>Testnet</b><small>Network</small></div>
+</section>
+
+<section id="wallet" class="card">
+  <h2>💰 Demo Wallet</h2>
+  <div class="balance"><span>Balance</span><strong id="balance">1,000 MYC</strong></div>
+  <div class="actions">
+    <button onclick="receive()">Receive</button>
+    <button onclick="send()">Send 100 MYC</button>
+  </div>
+  <p id="message" class="message"></p>
+  <h3>Transaction History</h3>
+  <ul id="transactions"><li>No transactions yet.</li></ul>
+</section>
+
+<section id="about" class="card">
+  <h2>ℹ️ About MyCoin</h2>
+  <p>MyCoin (MYC) is a demonstration token project. This website does not process real-money payments and does not represent an offer to sell cryptocurrency.</p>
+</section>
+
+<section class="card">
+  <h2>📞 Contact</h2>
+  <p>Email: support@example.com</p>
+  <p class="note">Replace this demo email with your own support address before publishing.</p>
+</section>
+</main>
+
+<footer>© 2026 MyCoin • Demo/Testnet Project</footer>
+<script src="script.js"></script>
+</body>
+</html>
